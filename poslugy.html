@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>ITWizards</title>
+</head>
+<body>
+
+  <ul id="slide-out" class="sidenav">
+    <li><a href="index.html"><i class="material-icons">home</i>Головна</a></li>
+    <li><a href="pronas.html"><i class="material-icons">people</i>Про нас</a></li>
+    <li><a href="poslugy.html"><i class="material-icons">grade</i>Послуги</a></li>
+    <li><a href="contact.html"><i class="material-icons">phone</i>Контакти</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="sidenav-close" href="#!"><i class="material-icons">close</i>Закрити</a></li>
+  </ul>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__title">
+        <div class="container">
+            <img src="img\logo.svg" alt="Ваше изображение" class="left-image">
+        </div>
+        <a class="burger sidenav-trigger" href="#" data-target="slide-out">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </a>
+      </div>
+      <h1 class="h1">ITWizards</h1>
+      <h4 class="h4">провідна ІТ-компанія, що займається консалтингом та надає послуги у сфері цифрових технологій</h4>
+    </div>
+  </header>
+
+  
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4 class="">НАДІШЛІТЬ ВАШ ЗАПИТ</h4>
+      <p class="">+380979535033 itwizards@gmail.com </p>
+    </div>
+  </div> 
+
+  <section class="request">
+    <div class="container">
+      <div class="request__flex">
+        <div class="request__flex-left">
+          <h4 class="request__h4">Швидке виконання проекта</h4>
+          <h5 class="request__h5">Реалізуємо вашу найкреативнішу задумку!</h5>
+        </div>
+        <div class="request__flex-right">
+          <a class="request__btn modal-trigger" href="#modal1">
+            <img class="request__icon" src="img/envelope.svg" alt="Envelope"> 
+            Ваш запит
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <h2 class="text-h2 section__h2">Чим ми займаємось?</h2>
+      <div class="services__grid">
+        <div class="services__grid-item">
+          <img class="cube" src="img\cube.png" alt="cube" style="width: 300px;height: 300px;"> 
+          <h4 class="text-h4 services__h4">ПРОГРАМНЕ ЗАБЕЗПЕЧЕННЯ</h4>
+        </div>
+        <div class="services__grid-item">
+          <img class="some" src="img\iot.png" alt="Service Icon"style="width: 300px;height: 300px;">
+          <h4 class="text-h4 services__h4">КІБЕРБЕЗПЕКА</h4>
+        </div>
+        <div class="services__grid-item">
+          <img class="ball" src="img\ball@2x.png" alt="Service Icon"style="width: 300px;height: 300px;">
+          <h4 class="text-h4 services__h4">ХМАРНІ ТЕХНОЛОГІЇ</h4>
+        </div>
+        <div class="services__grid-item">
+          <img class="tech" src="img\цифрові технології.png" alt="tech"style="width: 300px;height: 300px;">
+          <h4 class="text-h4 services__h4">ЦИФРОВІ ПЛАТФОРМИ</h4>
+        </div>
+        <div class="services__grid-item">
+          <img class="real" src="img\розширена реальність.png" alt="Service Icon"style="width: 300px;height: 300px;">
+          <h4 class="text-h4 services__h4">РОЗШИРЕНА РЕАЛЬНІСТЬ</h4>
+        </div>
+        <div class="services__grid-item">
+          <img class="aisphere" src="img\ai-sphere@2x.png" alt="Ai sphere"style="width: 300px;height: 300px;">
+          <h4 class="text-h4 services__h4">ШТУЧНИЙ ІНТЕЛЕКТ</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contacts">
+    <div class="container">
+      <h2 class="text-h2 contacts__h2">Контакти</h2>
+      <div class="contacts__grid">
+        <div class="contacts__item">
+          <img class="contacts__icon" src="img/map-icon.svg" alt="Location">
+          <h3 class="text-h3 contacts__h3 contacts__h3-gray">Адреса:</h3>
+          <h3 class="text-h3 contacts__h3">Лукаша 4В, офіс 337</h3>
+        </div>
+        <div class="contacts__item">
+          <img class="contacts__icon" src="img/phone-icon.svg" alt="Phone Number">
+          <h3 class="text-h3 contacts__h3 contacts__h3-gray">Телефон:</h3>
+          <h3 class="text-h3 contacts__h3">
+            <a href="tel:+380979535033">+380 (97) 953-50-33</a>
+            <br>
+            <a href="tel:+380979445033">+380 (97) 944-50-33</a>
+          </h3>
+        </div>
+        <div class="contacts__item">
+          <img class="contacts__icon" src="img/clock-icon.svg" alt="Schedule">
+          <h3 class="text-h3 contacts__h3 contacts__h3-gray">Графік роботи:</h3>
+          <h3 class="text-h3 contacts__h3">пн-сб<br>10:00 - 20:00</h3>
+        </div>
+        <div class="contacts__item">
+          <img class="contacts__icon" src="img/mail-icon.svg" alt="Email">
+          <h3 class="text-h3 contacts__h3 contacts__h3-gray">E-mail:</h3>
+          <h3 class="text-h3 contacts__h3 contacts__h3-accent">
+            <a href="mailto:itwizards@gmail.com">itwizards@gmail.com</a>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__flex">
+        <p class="text-p footer__copyright">© 2023 ITWizards</p>
+        <p class="text-p footer__brand">By Kulchytska Sofiia</p>
+      </div>
+    </div>
+  </footer> 
+
+  <script src="js/materialize.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
